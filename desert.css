@@ -39,7 +39,7 @@ body{
 }
 .nav{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse;   
 }
 .nav ul{
     list-style: none;
@@ -48,7 +48,6 @@ body{
 .nav ul li{
     color: inherit;
     margin: 15px;
-    backdrop-filter: blur('20px');
     border: 1px #878787 solid;
     padding: 7px;
     border-radius: 10px;
@@ -56,7 +55,11 @@ body{
     text-align: center;
     right: 5%;
     width: 100px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
 }
 .nav ul li:hover {
     scale: 1.2;
@@ -94,7 +97,7 @@ body{
     background-color: #fdf8f3;
 }
 .p2{
-    background-image: url(drinksp/شاى\ احمر.jpg);
+    background-image: url(desertp1/كيك/كيك\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -105,7 +108,7 @@ body{
     background-position: center;
 }
 .p3{
-    background-image: url(drinksp/شاى\ اخضر.jpg);
+    background-image: url(desertp1/كيك/كيك\ فانيليا.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -116,7 +119,7 @@ body{
     background-position: center;
 }
 .p4{
-    background-image: url(drinksp/شاى\ اخضر\ بالنعناع.jpg);
+    background-image: url(desertp1/كيك/كيك\ ريد\ فيلفيت.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -127,7 +130,7 @@ body{
     background-position: center;
 }
 .p6{
-    background-image: url(drinksp/شاى\ ايس\ تى\ توت.jpg);
+    background-image: url(desertp1/كيك/كيك\ بلاك\ فورست.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -138,7 +141,7 @@ body{
     background-position: center;
 }
 .p7{
-    background-image: url(drinksp/شاى\ ايس\ تى\ خوخ.jpg);
+    background-image: url(desertp1/كيك/كيك\ سان\ سيباستيان.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -149,7 +152,7 @@ body{
     background-position: center;
 }
 .p8{
-    background-image: url(drinksp/شاى\ ايس\ تى\ رمان.jpg);
+    background-image: url(desertp1/كيك/كيك\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -160,7 +163,7 @@ body{
     background-position: center;
 }
 .p9{
-    background-image: url(drinksp/شاى\ ايس\ تى\ ليمون.jpg);
+    background-image: url(desertp1/كيك/كيك\ اوريو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -171,7 +174,7 @@ body{
     background-position: center;
 }
 .p10{
-    background-image: url(drinksp/شاى\ ايس\ تى\ مانجو.jpg);
+    background-image: url(desertp1/كيك/كيك\ كيندر.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -182,7 +185,7 @@ body{
     background-position: center;
 }
 .p11{
-    background-image: url(drinksp/شاى\ بابونج.jpg);
+    background-image: url(desertp1/كيك/كيك\ فستق.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -193,7 +196,7 @@ body{
     background-position: center;
 }
 .p12{
-    background-image: url(drinksp/شاى\ بالليمون.jpg);
+    background-image: url(desertp1/كيك/كيك\ كراميل.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -204,7 +207,7 @@ body{
     background-position: center;
 }
 .p13{
-    background-image: url(drinksp/شاى\ بلبن.jpg);
+    background-image: url(desertp1/كيك/كيك\ مانجو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -215,7 +218,7 @@ body{
     background-position: center;
 }
 .p14{
-    background-image: url(drinksp/شاى\ تفاح\ بالقرفه.jpg);
+    background-image: url(desertp1/كيك/كيك\ فراوله.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -226,7 +229,7 @@ body{
     background-position: center;
 }
 .p15{
-    background-image: url(drinksp/شاى\ توت.jpg);
+    background-image: url(desertp1/كيك/كيك\ توت.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -237,7 +240,7 @@ body{
     background-position: center;
 }
 .p16{
-    background-image: url(drinksp/شاى\ حلبه.jpg);
+    background-image: url(desertp1/كيك/كيك\ موكا.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -248,7 +251,7 @@ body{
     background-position: center;
 }
 .p17{
-    background-image: url(drinksp/شاى\ خوخ.jpg);
+    background-image: url(desertp1/كيك/كيك\ جزر.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -259,7 +262,7 @@ body{
     background-position: center;
 }
 .p18{
-    background-image: url(drinksp/شاى\ زنجبيل.jpg);
+    background-image:url(desertp/تشيز/تشيز\ كيك\ كلاسيك.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -270,7 +273,7 @@ body{
     background-position: center;
 }
 .p19{
-    background-image: url(drinksp/شاى\ زنجبيل\ بالليمون.jpg);
+    background-image:url(desertp/تشيز/تشيز\ كيك\ لوتس.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -281,7 +284,7 @@ body{
     background-position: center;
 }
 .p20{
-    background-image: url(drinksp/شاى\ شمر.jpg);
+    background-image:url(desertp/تشيز/تشيز\ كيك\ اوريو.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -292,7 +295,7 @@ body{
     background-position: center;
 }
 .p21{
-    background-image: url(drinksp/شاى\ قرفه.jpg);
+    background-image:url(desertp/تشيز/تشيز\ كيك\ فراوله.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -303,7 +306,7 @@ body{
     background-position: center;
 }
 .p22{
-    background-image: url(drinksp/شاى\ كراويه.jpg);
+    background-image:url(desertp/تشيز/تشيز\ كيك\ مانجو.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -314,7 +317,7 @@ body{
     background-position: center;
 }
 .p23{
-    background-image: url(drinksp/شاى\ كراويه.jpg);
+    background-image:url(desertp/تشيز/تشيز\ كيك\ بلو\ بيرى.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -325,7 +328,7 @@ body{
     background-position: center;
 }
 .p24{
-    background-image: url(drinksp/شاى\ كرك.jpg);
+    background-image:url(desertp/تشيز/تشيز\ كيك\ شكولاته.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -336,7 +339,7 @@ body{
     background-position: center;
 }
 .p25{
-    background-image: url(drinksp/شاى\ كركديه.jpg);
+    background-image:url(desertp/تشيز/تشيز\ كيك\ كيندر.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -347,7 +350,7 @@ body{
     background-position: center;
 }
 .p26{
-    background-image: url(drinksp/شاى\ كشرى.jpg);
+    background-image: url(desertp/تشيز/تشيز\ كيك\ فستق.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -358,7 +361,7 @@ body{
     background-position: center;
 }
 .p27{
-    background-image: url(drinksp/شاى\ مرمريه.jpg);
+    background-image: url(desertp/تشيز/تشيز\ كيك\ نوتيلا.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -369,7 +372,7 @@ body{
     background-position: center;
 }
 .p28{
-    background-image: url(drinksp/شاى\ نعناع.jpg);
+    background-image: url(desertp/تشيز/تشيز\ كيك\ كراميل.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -380,7 +383,7 @@ body{
     background-position: center;
 }
 .p29{
-    background-image: url(drinksp/شاى\ نعناع\ فريش.jpg);
+    background-image: url(desertp/تشيز/تشيز\ كيك\ ليمون.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -391,7 +394,7 @@ body{
     background-position: center;
 }
 .p30{
-    background-image: url(drinksp/شاى\ ياسمين.jpg);
+    background-image: url(desertp1/شوكو/براونيز.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -402,7 +405,7 @@ body{
     background-position: center;
 }
 .p31{
-    background-image: url(drinksp/شاى\ ينسون.jpg);
+    background-image: url(desertp1/شوكو/لافا\ كيك.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -413,7 +416,7 @@ body{
     background-position: center;
 }
 .p32{
-    background-image: url(drinksp/قهوره\ ريستريتو.jpg);
+    background-image: url(desertp1/شوكو/مولتن\ كيك.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -424,7 +427,7 @@ body{
     background-position: center;
 }
 .p33{
-    background-image: url(drinksp/قهوه\ اسبريسو\ دبل.jpg);
+    background-image: url(desertp1/شوكو/سوفليه.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -435,7 +438,7 @@ body{
     background-position: center;
 }
 .p34{
-    background-image: url(drinksp/قهوه\ اسبريسو\ سنجل.jpg);
+    background-image: url(desertp1/شوكو/شكولاته\ موس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -446,7 +449,7 @@ body{
     background-position: center;
 }
 .p35{
-    background-image: url(drinksp/قهوه\ افوجاتو.jpg);
+    background-image: url(desertp1/شوكو/فادج\ كيك.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -457,7 +460,7 @@ body{
     background-position: center;
 }
 .p36{
-    background-image: url(drinksp/قهوه\ امريكانو.jpg);
+    background-image: url(desertp1/شوكو/براونيز\ ايس\ كريم.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -468,7 +471,7 @@ body{
     background-position: center;
 }
 .p37{
-    background-image: url(drinksp/قهوه\ بندق.jpg);
+    background-image: url(desertp1/شوكو/ترافل\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -479,7 +482,7 @@ body{
     background-position: center;
 }
 .p38{
-    background-image: url(drinksp/قهوه\ تركى\ زياده.jpg);
+    background-image: url(desertp1/شوكو/كوب\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -490,7 +493,8 @@ body{
     background-position: center;
 }
 .p39{
-    background-image: url(drinksp/قهوه\ تركى\ ساده.jpg);
+    background-image: url(desertp1/شوكو/مينى\ براونيز.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -501,7 +505,7 @@ body{
     background-position: center;
 }
 .p40{
-    background-image: url(drinksp/قهوه\ تركى\ مظبوط.jpg);
+    background-image: url(desertp1/شوكو/تشوكو\ رول.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -512,7 +516,7 @@ body{
     background-position: center;
 }
 .p41{
-    background-image: url(drinksp/قهوه\ ريد\ اى.jpg);
+    background-image: url(desertp1/شوكو/شكولاته\ فوندو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -523,7 +527,7 @@ body{
     background-position: center;
 }
 .p42{
-    background-image: url(drinksp/قهوه\ سبانش\ لاتيه.jpg);
+    background-image: url(desertp1/وافل/وافل\ نوتيلا.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -534,7 +538,7 @@ body{
     background-position: center;
 }
 .p43{
-    background-image: url(drinksp/قهوه\ سبانش\ لاتيه\ ايس.jpg);
+    background-image: url(desertp1/وافل/وافل\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -545,7 +549,7 @@ body{
     background-position: center;
 }
 .p44{
-    background-image: url(drinksp/قهوه\ شكولاته.jpg);
+    background-image: url(desertp1/وافل/وافل\ اوريو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -556,7 +560,7 @@ body{
     background-position: center;
 }
 .p45{
-    background-image: url(drinksp/قهوه\ فانيليا.jpg);
+    background-image: url(desertp1/وافل/وافل\ كيندر.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -567,7 +571,7 @@ body{
     background-position: center;
 }
 .p46{
-    background-image: url(drinksp/قهوه\ فرنساوى.jpg);
+    background-image: url(desertp1/وافل/وافل\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -578,7 +582,7 @@ body{
     background-position: center;
 }
 .p47{
-    background-image: url(drinksp/قهوه\ فلات\ وايت.jpg);
+    background-image: url(desertp1/وافل/وافل\ وايت\ شوكلت.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -589,7 +593,7 @@ body{
     background-position: center;
 }
 .p48{
-    background-image: url(drinksp/قهوه\ كابتشينو.jpg);
+    background-image: url(desertp1/وافل/وافل\ موز.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -600,7 +604,7 @@ body{
     background-position: center;
 }
 .p49{
-    background-image: url(drinksp/قهوه\ كراميل.jpg);
+    background-image: url(desertp1/وافل/وافل\ فراوله.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -611,7 +615,7 @@ body{
     background-position: center;
 }
 .p50{
-    background-image: url(drinksp/قهوه\ كورتادو.jpg);
+    background-image: url(desertp1/وافل/وافل\ ميكس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -622,7 +626,7 @@ body{
     background-position: center;
 }
 .p51{
-    background-image: url(drinksp/قهوه\ كولد\ برو.jpg);
+    background-image: url(desertp1/وافل/وافل\ فواكه.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -633,7 +637,7 @@ body{
     background-position: center;
 }
 .p52{
-    background-image: url(drinksp/قهوه\ لاتيه.jpg);
+    background-image: url(desertp1/وافل/وافل\ ايس\ كريم.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -644,7 +648,7 @@ body{
     background-position: center;
 }
 .p53{
-    background-image: url(drinksp/قهوه\ لاتيه\ بالبندق.jpg);
+    background-image: url(desertp1/وافل/وافل\ سبيشيال.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -655,7 +659,7 @@ body{
     background-position: center;
 }
 .p54{
-    background-image: url(drinksp/قهوه\ لاتيه\ جوز\ الهند.jpg);
+    background-image: url(desertp/بان/بان\ كيك\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -666,7 +670,7 @@ body{
     background-position: center;
 }
 .p55{
-    background-image: url(drinksp/قهوه\ فانيليا\ لاتيه.jpg);
+    background-image: url(desertp/بان/بان\ كيك\ اوريو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -677,7 +681,7 @@ body{
     background-position: center;
 }
 .p56{
-    background-image: url(drinksp/قهوه\ لاتيه\ فستق\ \(2\).jpg);
+    background-image: url(desertp/بان/بان\ كيك\ كيندر.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -688,7 +692,7 @@ body{
     background-position: center;
 }
 .p57{
-    background-image: url(drinksp/قهوه\ لاتيه\ قرفه.jpg);
+    background-image: url(desertp/بان/بان\ كيك\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -699,7 +703,7 @@ body{
     background-position: center;
 }
 .p58{
-    background-image: url(drinksp/قهوه\ لاتيه\ كراميل.jpg);
+    background-image: url(desertp/بان/بان\ كيك\ موز.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -710,7 +714,7 @@ body{
     background-position: center;
 }
 .p59{
-    background-image: url(drinksp/قهوه\ لونج\ بلاك.jpg);
+    background-image: url(desertp/بان/بان\ كيك\ فراوله.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -721,7 +725,7 @@ body{
     background-position: center;
 }
 .p60{
-    background-image: url(drinksp/قهوه\ لونجو.jpg);
+    background-image: url(desertp/بان/بان\ كيك\ عسل.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -732,7 +736,7 @@ body{
     background-position: center;
 }
 .p61{
-    background-image: url(drinksp/قهوه\ ماكياتو.jpg);
+    background-image: url(desertp/بان/بان\ كيك\ كراميل.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -743,7 +747,7 @@ body{
     background-position: center;
 }
 .p62{
-    background-image: url(drinksp/قهوه\ موكا.jpg);
+    background-image: url(desertp/بان/بان\ كيك\ فواكه.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -754,7 +758,7 @@ body{
     background-position: center;
 }
 .p63{
-    background-image: url(drinksp/قهوه\ موكا\ بالنعناع.jpg);
+    background-image: url(desertp/بان/بان\ كيك\ ايس\ كريم.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -765,7 +769,7 @@ body{
     background-position: center;
 }
 .p64{
-    background-image: url(drinksp/قهوه\ وايت\ موكا.jpg);
+    background-image: url(desertp/بان/بان\ كيك\ سبيشيال.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -776,7 +780,7 @@ body{
     background-position: center;
 }
 .p65{
-    background-image: url(drinksp/ه\ حمص\ شام.jpg);
+    background-image: url(desertp1/كريب/كريب\ نوتيلا.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -787,7 +791,7 @@ body{
     background-position: center;
 }
 .p66{
-    background-image: url(drinksp/ه\ سحلب.jpg);
+    background-image: url(desertp1/كريب/كريب\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -798,7 +802,7 @@ body{
     background-position: center;
 }
 .p67{
-    background-image: url(drinksp/ه\ سحلب\ قرفه.jpg);
+    background-image: url(desertp1/كريب/كريب\ اوريو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -809,7 +813,7 @@ body{
     background-position: center;
 }
 .p68{
-    background-image: url(drinksp/ه\ سحلب\ مكسرات.jpg);
+    background-image: url(desertp1/كريب/كريب\ كيندر.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -820,7 +824,7 @@ body{
     background-position: center;
 }
 .p69{
-    background-image: url(drinksp/ه\ قرفه\ بالحليب.jpg);
+    background-image: url(desertp1/كريب/كريب\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -831,7 +835,7 @@ body{
     background-position: center;
 }
 .p70{
-    background-image: url(drinksp/ه\ لبن\ بالعسل.jpg);
+    background-image: url(desertp1/كريب/كريب\ موز.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -842,7 +846,7 @@ body{
     background-position: center;
 }
 .p71{
-    background-image: url(drinksp/ه\ وايت\ هوت\ تشوكلت.jpg);
+    background-image: url(desertp1/كريب/كريب\ فراوله.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -853,7 +857,7 @@ body{
     background-position: center;
 }
 .p72{
-    background-image: url(drinksp/هوت\ تشوكلت.jpg);
+    background-image: url(desertp1/كريب/كريب\ ميكس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -864,7 +868,7 @@ body{
     background-position: center;
 }
 .p73{
-    background-image: url(drinksp/هوت\ تشوكلت\ بندق.jpg);
+    background-image: url(desertp1/كريب/كريب\ فواكه.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -875,7 +879,7 @@ body{
     background-position: center;
 }
 .p74{
-    background-image: url(drinksp/هوت\ تشوكلت\ كراميل.jpg);
+    background-image: url(desertp1/كريب/كريب\ مارشميلو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -886,7 +890,7 @@ body{
     background-position: center;
 }
 .p75{
-    background-image: url(drinksp/هوت\ تشوكلت\ مارشميلو.jpg);
+    background-image: url(desertp1/كريب/كريب\ سبيشيال.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -897,7 +901,7 @@ body{
     background-position: center;
 }
 .p76{
-    background-image: url(drinksp/غ\ بيبسى\ دايت.jpg);
+    background-image: url(desertp/ايس/ايس\ فانيليا.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -908,7 +912,7 @@ body{
     background-position: center;
 }
 .p77{
-    background-image: url(drinksp/غ\ بيبسي.jpg);
+    background-image: url(desertp/ايس/ايس\ صنداى\ شوكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -919,7 +923,7 @@ body{
     background-position: center;
 }
 .p78{
-    background-image: url(drinksp/غ\ تويست.jpg);
+    background-image: url(desertp/ايس/ايس\ فراوله.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -930,7 +934,7 @@ body{
     background-position: center;
 }
 .p79{
-    background-image: url(drinksp/غ\ سبرايت.jpg);
+    background-image: url(desertp/ايس/ايس\ مانجه.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -941,7 +945,7 @@ body{
     background-position: center;
 }
 .p80{
-    background-image: url(drinksp/غ\ شويبس\ برتقال.jpg);
+    background-image: url(desertp/ايس/ايس\ توت\ احمر.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -952,7 +956,7 @@ body{
     background-position: center;
 }
 .p81{
-    background-image: url(drinksp/غ\ شويبس\ خوخ.jpg);
+    background-image: url(desertp/ايس/ايس\ توت\ ازرق.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -963,7 +967,7 @@ body{
     background-position: center;
 }
 .p82{
-    background-image:url(drinksp/غ\ شويبس\ رمان.jpg) ;
+    background-image: url(desertp/ايس/ايس\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -974,7 +978,7 @@ body{
     background-position: center;
 }
 .p83{
-    background-image: url(drinksp/غ\ شويبس\ سفندى.jpg);
+    background-image: url(desertp/ايس/ايس\ اوريو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -985,7 +989,7 @@ body{
     background-position: center;
 }
 .p84{
-    background-image: url(drinksp/غ\ فانتا\ برتقال.jpg);
+    background-image: url(desertp/ايس/ايس\ كيندر.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -996,7 +1000,8 @@ body{
     background-position: center;
 }
 .p85{
-    background-image: url(drinksp/غ\ فانتا\ تفاح.jpg);
+    background-image: url(desertp/ايس/ايس\ فستق.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1007,7 +1012,8 @@ body{
     background-position: center;
 }
 .p86{
-    background-image: url(drinksp/غ\ فانتا\ عنب.jpg);
+    background-image: url(desertp/ايس/ايس\ كريم\ كراميل.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1018,7 +1024,8 @@ body{
     background-position: center;
 }
 .p87{
-    background-image: url(drinksp/غ\ فانتا\ فراوله.jpg);
+    background-image: url(desertp/ايس/ايس\ كريم\ موكا.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1029,7 +1036,8 @@ body{
     background-position: center;
 }
 .p88{
-    background-image: url(drinksp/غ\ كوكاكولا.jpg);
+    background-image: url(desertp/ايس/ايس\ صنداى\ شوكولاته.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1040,7 +1048,8 @@ body{
     background-position: center;
 }
 .p89{
-    background-image: url(drinksp/غ\ كوكاكولا\ زيرو.jpg);
+    background-image: url(desertp/ايس/ايس\ بانانا\ سبليت.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1051,7 +1060,8 @@ body{
     background-position: center;
 }
 .p90{
-    background-image: url(drinksp/غ\ مياه.jpg);
+    background-image: url(desertp/ايس/ايس\ سبيشيال.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1062,7 +1072,8 @@ body{
     background-position: center;
 }
 .p91{
-    background-image: url(drinksp/غ\ مياه\ فواره.jpg);
+    background-image: url(desertp/شرقيه/كنافه\ ساده.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1073,7 +1084,8 @@ body{
     background-position: center;
 }
 .p92{
-    background-image: url(drinksp/غ\ ميرندا\ تفاح.jpg);
+    background-image: url(desertp/شرقيه/كنافه\ بالقشطه.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1084,7 +1096,8 @@ body{
     background-position: center;
 }
 .p93{
-    background-image: url(drinksp/غ\ ميرندا\ ليمون.jpg);
+    background-image: url(desertp/شرقيه/كنافه\ بالشكولاته.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1095,7 +1108,8 @@ body{
     background-position: center;
 }
 .p94{
-    background-image: url(drinksp/عصير\ افوكادو.jpg);
+    background-image: url(desertp/شرقيه/كنافه\ بالمنجه.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1106,7 +1120,8 @@ body{
     background-position: center;
 }
 .p95{
-    background-image: url(drinksp/عصير\ افوكادو\ بالعسل.jpg);
+    background-image: url(desertp/شرقيه/بسبوسه.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1117,7 +1132,8 @@ body{
     background-position: center;
 }
 .p96{
-    background-image: url(drinksp/عصير\ افوكادو\ بالمكسرات.jpg);
+    background-image: url(desertp/شرقيه/بسبوسه\ بالقشطه.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1128,7 +1144,8 @@ body{
     background-position: center;
 }
 .p97{
-    background-image: url(drinksp/عصير\ اناناس.jpg);
+    background-image: url(desertp/شرقيه/ام\ على.jpg);
+
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1139,7 +1156,7 @@ body{
     background-position: center;
 }
 .p98{
-    background-image: url(drinksp/عصير\ برتقال.jpg);
+    background-image: url(desertp/شرقيه/ارز\ باللبن.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1150,7 +1167,7 @@ body{
     background-position: center;
 }
 .p99{
-    background-image: url(drinksp/عصير\ بطيخ.jpg);
+    background-image: url(desertp/شرقيه/مهلبيه.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1161,7 +1178,7 @@ body{
     background-position: center;
 }
 .p100{
-    background-image: url(drinksp/عصير\ تفاح.jpg);
+    background-image: url(desertp/شرقيه/بلح\ الشام.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1172,7 +1189,7 @@ body{
     background-position: center;
 }
 .p101{
-    background-image: url(drinksp/عصير\ تمر\ هندى.jpg);
+    background-image: url(desertp/شرقيه/لقمه\ القاضى.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1183,7 +1200,7 @@ body{
     background-position: center;
 }
 .p102{
-    background-image: url(drinksp/عصير\ تين\ شوكى.jpg);
+    background-image: url(desertp/شرقيه/زنود\ الست.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1194,7 +1211,7 @@ body{
     background-position: center;
 }
 .p103{
-    background-image: url(drinksp/عصير\ جوافه.jpg);
+    background-image: url(desertp/شرقيه/اصابع\ زينب.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1205,7 +1222,7 @@ body{
     background-position: center;
 }
 .p104{
-    background-image: url(drinksp/عصير\ خروب.jpg);
+    background-image: url(desertp/شرقيه/حلاوه\ الجبن.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1216,7 +1233,7 @@ body{
     background-position: center;
 }
 .p105{
-    background-image: url(drinksp/عصير\ خوخ.jpg);
+    background-image: url(desertp/شرقيه/قشطوطه.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1227,7 +1244,7 @@ body{
     background-position: center;
 }
 .p106{
-    background-image: url(drinksp/عصير\ دوم.jpg);
+    background-image: url(desertp/شرقيه/جلاش.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1238,7 +1255,7 @@ body{
     background-position: center;
 }
 .p107{
-    background-image: url(drinksp/عصير\ رمان.jpg);
+    background-image: url(desertp/شرقيه/جلاش\ بالشكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1249,7 +1266,7 @@ body{
     background-position: center;
 }
 .p108{
-    background-image: url(drinksp/عصير\ سوبيا.jpg);
+    background-image: url(desertp/شرقيه/جلاش\ بالقشطه.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1260,7 +1277,7 @@ body{
     background-position: center;
 }
 .p109{
-    background-image: url(drinksp/عصير\ عرق\ سوس.jpg);
+    background-image: url(desertp/شرقيه/قطايف\ ساده.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1271,7 +1288,7 @@ body{
     background-position: center;
 }
 .p110{
-    background-image:url(drinksp/عصير\ عنب.jpg) ;
+    background-image: url(desertp/شرقيه/قطايف\ بالقشطه.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1282,7 +1299,7 @@ body{
     background-position: center;
 }
 .p111{
-    background-image: url(drinksp/عصير\ فراوله.jpg);
+    background-image: url(desertp/شرقيه/قطايف\ بالشكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1293,7 +1310,7 @@ body{
     background-position: center;
 }
 .p112{
-    background-image: url(drinksp/عصير\ قصب.jpg);
+    background-image: url(desertp/شرقيه/قطايف\ بالمكسرات.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1304,7 +1321,7 @@ body{
     background-position: center;
 }
 .p113{
-    background-image: url(drinksp/عصير\ قصب\ بالليمون.jpg);
+    background-image: url(desertp1/مخبوزات/دونات\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1315,7 +1332,7 @@ body{
     background-position: center;
 }
 .p114{
-    background-image: url(drinksp/عصير\ قمر\ الدين.jpg);
+    background-image: url(desertp1/مخبوزات/دونات\ سكر.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1326,7 +1343,7 @@ body{
     background-position: center;
 }
 .p115{
-    background-image: url(drinksp/عصير\ كنتالوب.jpg);
+    background-image: url(desertp1/مخبوزات/دونات\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1337,7 +1354,7 @@ body{
     background-position: center;
 }
 .p116{
-    background-image: url(drinksp/عصير\ كوكتيل.jpg);
+    background-image: url(desertp1/مخبوزات/دونات\ كيندر.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1348,7 +1365,7 @@ body{
     background-position: center;
 }
 .p118{
-    background-image: url(drinksp/عصير\ كيوى.jpg);
+    background-image: url(desertp1/مخبوزات/كوكيز\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1359,7 +1376,7 @@ body{
     background-position: center;
 }
 .p119{
-    background-image: url(drinksp/عصير\ ليمون.jpg);
+    background-image: url(desertp1/مخبوزات/كوكيز\ اوريو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1370,7 +1387,7 @@ body{
     background-position: center;
 }
 .p120{
-    background-image: url(drinksp/عصير\ ليمون\ بالنعناع.jpg);
+    background-image: url(desertp1/مخبوزات/كوكيز\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1381,7 +1398,7 @@ body{
     background-position: center;
 }
 .p121{
-    background-image: url(drinksp/عصير\ مانجه.jpg);
+    background-image: url(desertp1/مخبوزات/سينابون.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1392,7 +1409,7 @@ body{
     background-position: center;
 }
 .p122{
-    background-image: url(drinksp/موهيتو\ باشن\ فروت.jpg);
+    background-image: url(desertp1/مخبوزات/مافن\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1403,7 +1420,7 @@ body{
     background-position: center;
 }
 .p123{
-    background-image: url(drinksp/موهيتو\ باشن\ فروت\ ومانجو.jpg);
+    background-image: url(desertp1/مخبوزات/مافن\ فانيليا.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1414,7 +1431,7 @@ body{
     background-position: center;
 }
 .p124{
-    background-image: url(drinksp/موهيتو\ برتقال.jpg);
+    background-image: url(desertp1/مخبوزات/كرواسون\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1425,7 +1442,7 @@ body{
     background-position: center;
 }
 .p125{
-    background-image: url(drinksp/موهيتو\ بطيخ.jpg);
+    background-image: url(desertp1/مخبوزات/كرواسون\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1436,7 +1453,7 @@ body{
     background-position: center;
 }
 .p126{
-    background-image: url(drinksp/موهيتو\ بطيخ\ ونعناع.jpg);
+    background-image: url(desertp1/مخبوزات/ماكرون.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1447,7 +1464,7 @@ body{
     background-position: center;
 }
 .p127{
-    background-image: url(drinksp/موهيتو\ بلو.jpg);
+    background-image: url(desertp/بودينج/بودينج\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1458,7 +1475,7 @@ body{
     background-position: center;
 }
 .p128{
-    background-image: url(drinksp/موهيتو\ توت.jpg);
+    background-image: url(desertp/بودينج/بودينج\ فانيليا.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1469,7 +1486,7 @@ body{
     background-position: center;
 }
 .p129{
-    background-image: url(drinksp/موهيتو\ توت\ احمر.jpg);
+    background-image: url(desertp/بودينج/بودينج\ كراميل.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1480,7 +1497,7 @@ body{
     background-position: center;
 }
 .p130{
-    background-image: url(drinksp/موهيتو\ توت\ ازرق.jpg);
+    background-image: url(desertp/بودينج/بودينج\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1491,7 +1508,7 @@ body{
     background-position: center;
 }
 .p131{
-    background-image: url(drinksp/موهيتو\ جرين\ بل.jpg);
+    background-image: url(desertp/بودينج/بودينج\ اوريو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1502,7 +1519,7 @@ body{
     background-position: center;
 }
 .p132{
-    background-image: url(drinksp/موهيتو\ خوخ.jpg);
+    background-image: url(desertp/بودينج/بودينج\ مانجو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1513,7 +1530,7 @@ body{
     background-position: center;
 }
 .p133{
-    background-image: url(drinksp/موهيتو\ خيار\ ونعناع.jpg);
+    background-image: url(desertp/بودينج/بودينج\ فراوله.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1524,7 +1541,7 @@ body{
     background-position: center;
 }
 .p134{
-    background-image: url(drinksp/موهيتو\ رمان.jpg);
+    background-image: url(desertp/بودينج/بودينج\ فستق.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1535,7 +1552,7 @@ body{
     background-position: center;
 }
 .p135{
-    background-image: url(drinksp/موهيتو\ فراوله.jpg);
+    background-image: url(desertp1/كب/كب\ كيك\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1546,7 +1563,7 @@ body{
     background-position: center;
 }
 .p136{
-    background-image: url(drinksp/ميلك\ تشيك\ شكولاته.jpg);
+    background-image: url(desertp1/كب/كب\ كيك\ فانيليا.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1557,7 +1574,7 @@ body{
     background-position: center;
 }
 .p137{
-    background-image: url(drinksp/ميلك\ شيك\ فانيليا.jpg);
+    background-image: url(desertp1/كب/كب\ كيك\ ريد\ فيفيت.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1568,7 +1585,7 @@ body{
     background-position: center;
 }
 .p138{
-    background-image: url(drinksp/م\ اوريو.jpg);
+    background-image: url(desertp1/كب/كب\ كيك\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1579,7 +1596,7 @@ body{
     background-position: center;
 }
 .p139{
-    background-image: url(drinksp/م\ باونتى.jpg);
+    background-image: url(desertp1/كب/كب\ كيك\ اوريو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1590,7 +1607,7 @@ body{
     background-position: center;
 }
 .p140{
-    background-image: url(drinksp/م\ بلو\ بيرى.jpg);
+    background-image: url(desertp1/كب/كب\ كيك\ كيندر.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1601,18 +1618,7 @@ body{
     background-position: center;
 }
 .p141{
-    background-image: url(drinksp/م\ تشيز\ كيك.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 160px;
-    width: 160px;
-    border-radius: 10px;
-    margin: 10px;
-    object-fit: cover;
-    background-position: center;
-}
-.p142{
-    background-image: url(drinksp/م\ تشيز\ كيك\ فراوله.jpg);
+    background-image: url(desertp1/كب/كب\ كيك\ فستق.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1623,7 +1629,7 @@ body{
     background-position: center;
 }
 .p143{
-    background-image: url(drinksp/ميلك\ تشيك\ مانجو\ تشيز\ كيك.jpg);
+    background-image: url(desertp/تارت/تارت\ فواكه.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1634,7 +1640,7 @@ body{
     background-position: center;
 }
 .p144{
-    background-image: url(drinksp/م\ رافايلو.jpg);
+    background-image: url(desertp/تارت/تارت\ فراوله.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1645,7 +1651,7 @@ body{
     background-position: center;
 }
 .p145{
-    background-image: url(drinksp/م\ سنيكرز.jpg);
+    background-image: url(desertp/تارت/تارت\ مانجو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1656,7 +1662,7 @@ body{
     background-position: center;
 }
 .p146{
-    background-image: url(drinksp/م\ فراوله.jpg);
+    background-image: url(desertp/تارت/تارت\ ليمون.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1667,7 +1673,7 @@ body{
     background-position: center;
 }
 .p147{
-    background-image: url(drinksp/م\ فريرو\ روشيه.jpg);
+    background-image: url(desertp/تارت/تارت\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1678,7 +1684,7 @@ body{
     background-position: center;
 }
 .p148{
-    background-image: url(drinksp/م\ فسدق.jpg);
+    background-image: url(desertp/تارت/تارت\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1689,7 +1695,7 @@ body{
     background-position: center;
 }
 .p149{
-    background-image: url(drinksp/م\ كراميل.jpg);
+    background-image: url(desertp/تارت/تارت\ اوريو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1700,7 +1706,7 @@ body{
     background-position: center;
 }
 .p150{
-    background-image: url(drinksp/م\ كيندر.jpg);
+    background-image: url(desertp/تارت/تارت\ مكسرات.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1711,7 +1717,7 @@ body{
     background-position: center;
 }
 .p151{
-    background-image: url(drinksp/م\ لوتس.jpg);
+    background-image: url(desertp1/كوب/كوب\ لوتس.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1722,7 +1728,7 @@ body{
     background-position: center;
 }
 .p152{
-    background-image: url(drinksp/م\ مارس.jpg);
+    background-image: url(desertp1/كوب/كوب\ اوريو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1733,7 +1739,7 @@ body{
     background-position: center;
 }
 .p153{
-    background-image: url(drinksp/م\ مانجو.jpg);
+    background-image: url(desertp1/كوب/كوب\ كيندر.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1744,7 +1750,7 @@ body{
     background-position: center;
 }
 .p154{
-    background-image: url(drinksp/م\ موز.jpg);
+    background-image: url(desertp1/كوب/كوب\ ريد\ فيلفيت.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1755,7 +1761,7 @@ body{
     background-position: center;
 }
 .p155{
-    background-image: url(drinksp/م\ موز\ بالشكولاته.jpg);
+    background-image: url(desertp1/كوب/كوب\ تشيز\ كيك.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1766,7 +1772,7 @@ body{
     background-position: center;
 }
 .p156{
-    background-image: url(drinksp/م\ نوتيلا.jpg);
+    background-image: url(desertp1/كوب/كوب\ براونيز.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1777,7 +1783,7 @@ body{
     background-position: center;
 }
 .p158{
-    background-image:url(drinksp/سموزى\ افوكادو.jpg) ;
+    background-image: url(desertp1/كوب/كوب\ تراميسو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1788,7 +1794,7 @@ body{
     background-position: center;
 }
 .p159{
-    background-image: url(drinksp/سموزى\ انانس.jpg);
+    background-image: url(desertp1/كوب/كوب\ مانجو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1799,7 +1805,7 @@ body{
     background-position: center;
 }
 .p160{
-    background-image: url(drinksp/سموزى\ توت.jpg);
+    background-image: url(desertp1/كوب/كوب\ فراوله.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1810,7 +1816,7 @@ body{
     background-position: center;
 }
 .p161{
-    background-image: url(drinksp/سموزى\ خوخ.jpg);
+    background-image: url(desertp1/كوب/كوب\ شكولاته\ بالتوت.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1821,7 +1827,7 @@ body{
     background-position: center;
 }
 .p162{
-    background-image: url(drinksp/سموزى\ رمان.jpg);
+    background-image: url(desertp1/موتشى/موتشى\ فانيليا.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1832,7 +1838,7 @@ body{
     background-position: center;
 }
 .p163{
-    background-image: url(drinksp/سموزى\ فراوله.jpg);
+    background-image: url(desertp1/موتشى/موتشى\ شكولاته.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1843,7 +1849,7 @@ body{
     background-position: center;
 }
 .p164{
-    background-image: url(drinksp/سموزى\ كيوي.jpg);
+    background-image: url(desertp1/موتشى/موتشى\ مانجو.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1854,7 +1860,7 @@ body{
     background-position: center;
 }
 .p165{
-    background-image: url(drinksp/سموزى\ مانجو.jpg);
+    background-image: url(desertp1/موتشى/موتشى\ توت.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1865,7 +1871,7 @@ body{
     background-position: center;
 }
 .p166{
-    background-image: url(drinksp/سموزى\ مكس\ فواكه.jpg);
+    background-image: url(desertp1/موتشى/موتشى\ باشن\ فروت.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1876,7 +1882,29 @@ body{
     background-position: center;
 }
 .p167{
-    background-image: url(drinksp/سموزى\ موز.jpg);
+    background-image: url(desertp1/موتشى/موتشى\ اوريو.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p168{
+    background-image: url(desertp1/موتشى/موتشى\ لوتس.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+.p169{
+    background-image: url(desertp1/موتشى/موتشى\ كراميل.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 160px;
@@ -1925,4 +1953,29 @@ form{
 .st{
     text-align: center;
     margin-bottom: 5px;
+}
+@media (max-width:768px){
+    .header , #i{
+        font-size: 15px;
+    }
+    #list{
+        position: absolute;
+        right: 85px;
+    }
+    #list{
+        font-size: 10px;
+    }
+    .nav ul li a{
+        font-size: 15px;
+    }
+    .nav ul li{
+        width: 70px;
+        height: fit-content;
+    }
+    .hbreak{
+        font-size: 30px;
+    }
+    .linebreak{
+        font-size: 11px;
+    }
 }
